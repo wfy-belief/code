@@ -1,7 +1,9 @@
 {
     "python.testing.pytestArgs": [
+        "-v",
         ".",
-        "--capture=no"
+        "--html=./templates/testreport.html"
+        //"--capture=no"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
@@ -10,5 +12,7 @@
     "python.analysis.extraPaths": [
         "./1/project/",
         "./1/project/get_pages_content",
-    ]
+    ],
+    // "python.testing.pytestPath":"d:\\program files\\python38\\lib\\site-packages\\pytest",  
+    "python.testing.autoTestDiscoverOnSaveEnabled":true,
 }
