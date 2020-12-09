@@ -9,6 +9,7 @@
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.watchSearchPaths": true,
+    "python.autoComplete.extraPaths":[],
     "python.analysis.extraPaths": [
         "./1/project/",
         "./1/project/get_pages_content",
