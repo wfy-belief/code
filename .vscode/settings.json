@@ -2,7 +2,7 @@
     "python.testing.pytestArgs": [
         "-v",
         ".",
-        "--html=./templates/testreport.html"
+        //"--html=./templates/testreport.html",
         //"--capture=no"
     ],
     "python.testing.unittestEnabled": false,
