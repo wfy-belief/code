@@ -45,13 +45,16 @@ def train(documents, stopword):
 
 
 def main(document):
+    # 输入路径
     INPUT_PATH = "/data/python_pj6/bigdata"
+    # 读取文件
     data = pd.read_csv(INPUT_PATH)
     stopword = [line.strip() for line in open(
         '/data/python_pj6/china_stopword').readlines()]  # 加载停用词
     frames = [document, data]
     df = pd.concat(frames)
     # print(df)
+    # 计算相似度
     similiry = train(df.岗位描述, stopword)
     for index, simi in enumerate(similiry[0]):
         if simi > 0.99:
