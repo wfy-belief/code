@@ -13,6 +13,7 @@
     "python.analysis.extraPaths": [
         "./1/project/",
         "./1/project/get_pages_content",
+        "./1/project/LDA",
     ],
     // "python.testing.pytestPath":"d:\\program files\\python38\\lib\\site-packages\\pytest",  
     "python.testing.autoTestDiscoverOnSaveEnabled":true,
