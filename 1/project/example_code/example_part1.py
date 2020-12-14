@@ -72,7 +72,6 @@ def get_recuite_info(page):
         file = url.split('/')[-1]  # 用'/'分割并取最后一个元素
         print(file)  # 输出网址最后一位
         str = url.split('/')[2].split('.')[0]  # 先用'/'分割取第三个元素，再将元素用'.'分割取第一个元素
-        print(str)
         html = get_content(url, headers)  # 获取网页信息
         if html != None and file != '':  # 如果html不为空且file不为空
             with open(path+file, 'w') as f:  # 打开path_file文件只用于写入。如果该文件已存在则将其覆盖。如果该文件不存在，创建新文件。
