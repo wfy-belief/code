@@ -54,7 +54,7 @@ def get_html_info(html):
             "月工资": wages.text.strip(),  # 选择wages内的文本数据并跳过空
             "发布日期": date.text.strip(),  # 选择data内的文本数据并跳过空
             "经验": exper.text.strip(),  # 选择exper内的文本数据并跳过空
-            "人数": num.text.strip()，  # 选择num内的文本数据并跳过空
+            "人数": num.text.strip(),  # 选择num内的文本数据并跳过空
             "工作地点": area.text.strip(),  # 选择area内的文本数据并跳过空
             "工作性质": nature.text.strip(),  # 选择nature内的文本数据并跳过空
             "最低学历": Edu.text.strip(),  # 选择Edu内的文本数据并跳过空
